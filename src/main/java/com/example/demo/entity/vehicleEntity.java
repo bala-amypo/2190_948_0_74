@@ -12,5 +12,8 @@ public class Vehicle{
     @ManyToOne
     @JoinColumn(name="user_id",nullable=false) private User user;
 
-    @Column(N)
+    @Column(name="vehicle_number",nullable=false,unique=true) private String vehicleNumber;
+
+    @Column(name="capacity_kg",nullable=false) private Dou
+    
 }
