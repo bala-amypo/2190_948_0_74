@@ -9,7 +9,7 @@ public class studentEntity{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
      
-    @NotBlank(message = "Name is npt valid")
+    @NotBlank(message = "Name is not valid")
     private String name;
 
     @Email(message = "Email Format is not Valid")
