@@ -1,6 +1,11 @@
 package com.example.demo.service.impl;
 
-import com.example.demo.service;
+import com.example.demo.service.*;
+
 
 @Service
-public class studentService
+public class studentServiceImpl implements studentService{
+
+    @
+
+}
