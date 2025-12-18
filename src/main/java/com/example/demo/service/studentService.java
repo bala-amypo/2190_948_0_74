@@ -1,8 +1,13 @@
 package com.example.demo.service;
 
-interface studentService{
+import com.example.demo.entity.*;
+import java.util.*;
 
 
+public interface StudentService {
 
-    List<studentEntity>getAll();
+     List<studentEntity> getAll();
+
+     studentEntity addStudent(studentEntity student);
+
 }
